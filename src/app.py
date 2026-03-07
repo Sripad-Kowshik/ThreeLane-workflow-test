@@ -5,3 +5,6 @@ def startup():
 
 def login():
     return True
+
+def telemetry():
+    return {"enabled": True}
