@@ -8,3 +8,6 @@ def login():
 
 def telemetry():
     return {"enabled": True}
+
+def billing():
+    return "billing-ready"
