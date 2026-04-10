@@ -11,3 +11,6 @@ def telemetry():
 
 def billing():
     return "billing-ready"
+
+def feature_flags():
+    return {"multi_tenant": True}
