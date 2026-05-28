@@ -14,3 +14,6 @@ def billing():
 
 def feature_flags():
     return {"multi_tenant": True}
+
+def audit_log(event):
+    return {"event": event}
